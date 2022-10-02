@@ -4,6 +4,7 @@ import Animation from "./Animation";
 import Navbar  from "./Navbar";
 
 
+
 function App() {
     const [data, setData] = React.useState(null);
     React.useEffect(() => {
@@ -15,8 +16,8 @@ function App() {
     return (
       <div className="App">
         <Header/>
-       {/*<Navbar/> */} 
-        <Animation/>
+       <Navbar/> 
+       <Animation/>
        <p>{!data ? "Loading..." : data}</p>
       </div>
     );
