@@ -4,28 +4,46 @@ import "./Navbar.css"
 
 function navbar() {
 	return (
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Tehri <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Ddun</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">chambag</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
-					</li>
-				</ul>
+		<div>
+			<div>
+				<video
+					autoPlay muted
+					src={require("./vid1.mp4")}
+				/>
 			</div>
-		</nav>
+			<div className='navbar'>
+
+				<nav class="navbar navbar-expand-sm fixed-top navbar-light">
+					<div class="container">
+						<a class="navbar-brand specific-color" href="#">Explore-Uttarakhan</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbar1">
+							<ul class="navbar-nav">
+								<li class="nav-item active">
+									<a class="nav-link specific-color" href="#">Tehri</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link specific-color" href="#">Dehradun</a>
+								</li>
+								<li class="nav-item active">
+									<a class="nav-link specific-color" href="#">Pauri</a>
+								</li>
+								<li class="nav-item active">
+									<a class="nav-link specific-color" href="#">Rishikesh</a>
+								</li>
+								<li class="nav-item active">
+									<a class="nav-link specific-color	" href="#">Uttarkashi</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+			</div>
+
+		</div>
 	);
 }
 export default navbar;

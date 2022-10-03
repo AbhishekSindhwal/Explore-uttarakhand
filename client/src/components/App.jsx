@@ -1,8 +1,5 @@
 import React from "react";
-import Header from "./Header"
-import Animation from "./Animation";
 import Navbar  from "./Navbar";
-
 
 
 function App() {
@@ -15,10 +12,9 @@ function App() {
   
     return (
       <div className="App">
-        <Header/>
-       <Navbar/> 
-       <Animation/>
-       <p>{!data ? "Loading..." : data}</p>
+        <Navbar/>
+       {/*
+       <p>{!data ? "Loading..." : data}</p>*/}
       </div>
     );
   }
