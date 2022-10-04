@@ -4,6 +4,14 @@
     top: 17px;
     left: 50px;
 }
-.specific-color{
-    color: black;
+
+.custom-color{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Title{
+    position: absolute;
+    top: 440px;
+    left: 500px;
 }
