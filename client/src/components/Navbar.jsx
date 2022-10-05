@@ -6,17 +6,14 @@ function navbar() {
 	return (
 		<div>
 			<div>
-				<video
-					autoPlay muted
-					src={require("./vid1.mp4")}
+				<video className='frontVedio'
+					autoPlay loop muted
+					src={require("./AAA.mp4")}
 				/>
 			</div>
 			<div className='navbar'>
 				<nav class="navbar navbar-expand-sm fixed-top navbar-light">
 					<div class="container">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-							<span class="navbar-toggler-icon"></span>
-						</button>
 						<div class="collapse navbar-collapse" id="navbar1">
 							<ul class="navbar-nav">
 								<li class="nav-item active">
@@ -31,22 +28,19 @@ function navbar() {
 								<li class="nav-item active">
 									<a class="nav-link custom-color" href="#">Rudraprayag</a>
 								</li>
-								<li class="nav-item active">
+								<li class="nav-item ">
 									<a class="nav-link custom-color	" href="#">Uttarkashi</a>
 								</li>
-								<li class="nav-item active">
+								<li class="nav-item ">
 									<a class="nav-link custom-color" href="#">Chamoli</a>
 								</li>
-								<li class="nav-item active">
+								<li class="nav-item ">
 									<a class="nav-link custom-color" href="#">Haridwar</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</nav>
-			</div>
-			<div className='Title'>
-				<h1>Explore Gharwal</h1>
 			</div>
 		</div>
 	);

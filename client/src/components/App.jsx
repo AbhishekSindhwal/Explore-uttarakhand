@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar  from "./Navbar";
+import UniqueThings  from "./UniqueThings";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     return (
       <div className="App">
         <Navbar/>
+        <UniqueThings/>
        {/*
        <p>{!data ? "Loading..." : data}</p>*/}
       </div>

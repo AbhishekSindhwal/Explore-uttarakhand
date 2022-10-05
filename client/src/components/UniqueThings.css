@@ -1,0 +1,14 @@
+.unique-things{
+    width: 35%;
+    float: left;
+    border-radius: 10%;
+    margin: 20px;
+}
+.carousel-div{
+    background-color: #372948;
+}
+.unique-things-text{
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
